@@ -32,7 +32,7 @@ export const codmStats = [
 ];
 
 export const gallery = [
-  { src: gameCardAsset, label: "PLAYER GAME CARD", alt: "Haywhy_Fc multiplayer loadout 10 with Locus Neptune and Spear Striking Azure" },
+  { src: gameCardAsset, label: "PLAYER GAME CARD", alt: "Haywhy_Fc multiplayer loadout 3 with FSS Hurricane Shadow Skyline and Machine Pistol Illuminous Fragments" },
   { src: profileAsset, label: "OPERATOR PROFILE", alt: "Paris Haywhy Call of Duty Mobile operator profile" },
   { src: loadoutAsset, label: "ACTIVE LOADOUT", alt: "Haywhy_Fc Call of Duty Mobile loadout" },
   { src: lifestyleAsset, label: "OFF THE GRID", alt: "Haywhy_Fc gaming and lifestyle highlights" },
