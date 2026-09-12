@@ -5,8 +5,7 @@ import loadoutAsset from "../assets/paris-loadout.webp";
 import profileAsset from "../assets/paris-profile.webp";
 import gameCardAsset from "../assets/paris-game-card.jpeg";
 import headerAsset from "../assets/paris-haywhy-header.jpeg";
-import leaderboardAsset from "../assets/codm-leaderboard.jpg";
-import hurricaneLoadoutAsset from "../assets/codm-hurricane-loadout.jpg";
+import { leaderboardAsset, hurricaneLoadoutAsset } from "../assets/weapon-images";
 
 export const assets = {
   lifestyle: lifestyleAsset,
