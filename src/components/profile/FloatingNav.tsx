@@ -3,6 +3,7 @@ import { Menu, X } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { navItems } from "@/lib/profile-data";
+import { Soundtrack } from "./Soundtrack";
 
 export function FloatingNav() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -16,6 +17,7 @@ export function FloatingNav() {
           <a key={id} href={`#${id}`} onClick={closeMenu}>{label}</a>
         ))}
       </nav>
+      <Soundtrack />
       <div className="nav-status"><i /> ONLINE</div>
       <Button variant="ghost" size="icon" className="menu-toggle" onClick={() => setMenuOpen((open) => !open)} aria-label="Toggle navigation" aria-expanded={menuOpen}>
         {menuOpen ? <X /> : <Menu />}
