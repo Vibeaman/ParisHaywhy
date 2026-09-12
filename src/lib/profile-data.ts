@@ -1,6 +1,5 @@
 import { Crosshair, Gamepad2, Music2, Shield, Target, Trophy, Zap } from "lucide-react";
 
-import lifestyleAsset from "../assets/paris-lifestyle.webp";
 import loadoutAsset from "../assets/paris-loadout.webp";
 import profileAsset from "../assets/paris-profile.webp";
 import headerAsset from "../assets/paris-haywhy-header.jpeg";
@@ -8,7 +7,6 @@ import { gameCardAsset } from "../assets/gallery-images";
 import { leaderboardAsset, hurricaneLoadoutAsset } from "../assets/weapon-images";
 
 export const assets = {
-  lifestyle: lifestyleAsset,
   loadout: loadoutAsset,
   profile: profileAsset,
   gameCard: gameCardAsset,
@@ -34,8 +32,6 @@ export const codmStats = [
 export const gallery = [
   { src: gameCardAsset, label: "PLAYER GAME CARD", alt: "Haywhy_Fc multiplayer loadout 3 with FSS Hurricane Shadow Skyline and Machine Pistol Illuminous Fragments" },
   { src: profileAsset, label: "OPERATOR PROFILE", alt: "Paris Haywhy Call of Duty Mobile operator profile" },
-  { src: loadoutAsset, label: "ACTIVE LOADOUT", alt: "Haywhy_Fc Call of Duty Mobile loadout" },
-  { src: lifestyleAsset, label: "OFF THE GRID", alt: "Haywhy_Fc gaming and lifestyle highlights" },
 ];
 
 export const tiktok = {
