@@ -18,13 +18,13 @@ export const player = {
   gamerTag: "7207918917695045633",
   game: "Call of Duty: Mobile",
   status: "ONLINE",
-  bio: "Just here to play, compete, improve and have fun.",
+  bio: "Memento Mori Memento Vivere",
 };
 
 export const codmStats = [
-  { label: "Level", value: "401", icon: Zap },
+  { label: "Level", value: "450", icon: Zap },
   { label: "MVP rate", value: "15.38%", icon: Target },
-  { label: "MVP awards", value: "21", icon: Trophy },
+  { label: "MVP awards", value: "93", icon: Trophy },
   { label: "Profile likes", value: "11,751", icon: Gamepad2 },
   { label: "Clan status", value: "NOT IN A CLAN", icon: Shield },
 ];
@@ -63,14 +63,14 @@ export const bioFacts: Array<[string, string]> = [
   ["ROLE", "CODM Creator / TikToker"],
   ["MAIN GAME", "Call of Duty: Mobile"],
   ["PLATFORM", "Mobile"],
-  ["CURRENT LEVEL", "401"],
+  ["CURRENT LEVEL", "450"],
   ["GAME MODES", "Multiplayer / Battle Royale"],
   ["PLAY STYLE", "Compete · Improve · Have fun"],
 ];
 
 export const records = [
-  { label: "PLAYER LEVEL", value: "401", icon: Trophy },
-  { label: "MVP AWARDS", value: "21", icon: Crosshair },
+  { label: "PLAYER LEVEL", value: "450", icon: Trophy },
+  { label: "MVP AWARDS", value: "93", icon: Crosshair },
   { label: "PROFILE LIKES", value: "11,751", icon: Target },
 ];
 
