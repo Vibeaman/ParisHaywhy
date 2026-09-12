@@ -3,7 +3,7 @@ import { Pause, Play } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 
-const TRACK_SRC = "/audio/disfruto.mp3";
+const TRACK_SRC = "/audio/disfruto.mp3?v=2";
 
 export function Soundtrack() {
   const audioRef = useRef<HTMLAudioElement | null>(null);
