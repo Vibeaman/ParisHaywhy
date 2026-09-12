@@ -30,7 +30,7 @@ export const codmStats = [
 ];
 
 export const gallery = [
-  { src: gameCardAsset, label: "PLAYER GAME CARD", alt: "Haywhy_Fc multiplayer loadout 3 with FSS Hurricane Shadow Skyline and Machine Pistol Illuminous Fragments" },
+  { src: gameCardAsset, label: "PLAYER GAME CARD", alt: "Paris Haywhy Call of Duty Mobile player profile with Master IV rank and Memento Mori Memento Vivere signature" },
   { src: profileAsset, label: "OPERATOR PROFILE", alt: "Paris Haywhy Call of Duty Mobile operator profile" },
 ];
 
@@ -65,7 +65,7 @@ export const bioFacts: Array<[string, string]> = [
   ["PLATFORM", "Mobile"],
   ["CURRENT LEVEL", "450"],
   ["GAME MODES", "Multiplayer / Battle Royale"],
-  ["PLAY STYLE", "Compete · Improve · Have fun"],
+  ["PLAY STYLE", "Aggressive"],
 ];
 
 export const records = [
