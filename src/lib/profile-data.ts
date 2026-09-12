@@ -1,19 +1,19 @@
 import { Crosshair, Gamepad2, Music2, Shield, Target, Trophy, Zap } from "lucide-react";
 
-import lifestyleAsset from "../assets/paris-lifestyle.png.asset.json";
-import loadoutAsset from "../assets/paris-loadout.png.asset.json";
-import profileAsset from "../assets/paris-profile.png.asset.json";
-import gameCardAsset from "../assets/paris-game-card.jpeg.asset.json";
-import headerAsset from "../assets/paris-haywhy-header.jpeg.asset.json";
-import activeWeaponAsset from "../assets/codm-active-weapon.jpg.asset.json";
-import mythicDropAsset from "../assets/codm-mythic-drop.jpg.asset.json";
+import lifestyleAsset from "../assets/paris-lifestyle.webp";
+import loadoutAsset from "../assets/paris-loadout.webp";
+import profileAsset from "../assets/paris-profile.webp";
+import gameCardAsset from "../assets/paris-game-card.jpeg";
+import headerAsset from "../assets/paris-haywhy-header.jpeg";
+import activeWeaponAsset from "../assets/codm-active-weapon.jpg";
+import mythicDropAsset from "../assets/codm-mythic-drop.jpg";
 
 export const assets = {
-  lifestyle: lifestyleAsset.url,
-  loadout: loadoutAsset.url,
-  profile: profileAsset.url,
-  gameCard: gameCardAsset.url,
-  header: headerAsset.url,
+  lifestyle: lifestyleAsset,
+  loadout: loadoutAsset,
+  profile: profileAsset,
+  gameCard: gameCardAsset,
+  header: headerAsset,
 };
 
 export const player = {
@@ -33,10 +33,10 @@ export const codmStats = [
 ];
 
 export const gallery = [
-  { src: gameCardAsset.url, label: "PLAYER GAME CARD", alt: "Paris Haywhy Call of Duty Mobile game card" },
-  { src: profileAsset.url, label: "OPERATOR PROFILE", alt: "Paris Haywhy Call of Duty Mobile operator profile" },
-  { src: loadoutAsset.url, label: "ACTIVE LOADOUT", alt: "Haywhy_Fc Call of Duty Mobile loadout" },
-  { src: lifestyleAsset.url, label: "OFF THE GRID", alt: "Haywhy_Fc gaming and lifestyle highlights" },
+  { src: gameCardAsset, label: "PLAYER GAME CARD", alt: "Paris Haywhy Call of Duty Mobile game card" },
+  { src: profileAsset, label: "OPERATOR PROFILE", alt: "Paris Haywhy Call of Duty Mobile operator profile" },
+  { src: loadoutAsset, label: "ACTIVE LOADOUT", alt: "Haywhy_Fc Call of Duty Mobile loadout" },
+  { src: lifestyleAsset, label: "OFF THE GRID", alt: "Haywhy_Fc gaming and lifestyle highlights" },
 ];
 
 export const tiktok = {
@@ -51,13 +51,13 @@ export const weapons = [
   {
     name: "ACTIVE MYTHIC RIFLE",
     detail: "CURRENTLY EQUIPPED // COD:M",
-    image: activeWeaponAsset.url,
+    image: activeWeaponAsset,
     alt: "Paris Haywhy holding the active mythic rifle in Call of Duty Mobile",
   },
   {
     name: "CHAOS & ORDER",
     detail: "MYTHIC DROP REDUX // FEATURED",
-    image: mythicDropAsset.url,
+    image: mythicDropAsset,
     alt: "Chaos and Order Mythic Drop Redux shown in Paris Haywhy's Call of Duty Mobile screen",
   },
 ];
