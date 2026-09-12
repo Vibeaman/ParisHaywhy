@@ -3,8 +3,8 @@ import { Crosshair, Gamepad2, Music2, Shield, Target, Trophy, Zap } from "lucide
 import lifestyleAsset from "../assets/paris-lifestyle.webp";
 import loadoutAsset from "../assets/paris-loadout.webp";
 import profileAsset from "../assets/paris-profile.webp";
-import gameCardAsset from "../assets/paris-game-card.jpeg";
 import headerAsset from "../assets/paris-haywhy-header.jpeg";
+import { gameCardAsset } from "../assets/gallery-images";
 import { leaderboardAsset, hurricaneLoadoutAsset } from "../assets/weapon-images";
 
 export const assets = {
@@ -32,7 +32,7 @@ export const codmStats = [
 ];
 
 export const gallery = [
-  { src: gameCardAsset, label: "PLAYER GAME CARD", alt: "Paris Haywhy Call of Duty Mobile game card" },
+  { src: gameCardAsset, label: "PLAYER GAME CARD", alt: "Haywhy_Fc multiplayer loadout 10 with Locus Neptune and Spear Striking Azure" },
   { src: profileAsset, label: "OPERATOR PROFILE", alt: "Paris Haywhy Call of Duty Mobile operator profile" },
   { src: loadoutAsset, label: "ACTIVE LOADOUT", alt: "Haywhy_Fc Call of Duty Mobile loadout" },
   { src: lifestyleAsset, label: "OFF THE GRID", alt: "Haywhy_Fc gaming and lifestyle highlights" },
