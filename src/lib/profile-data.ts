@@ -5,8 +5,8 @@ import loadoutAsset from "../assets/paris-loadout.webp";
 import profileAsset from "../assets/paris-profile.webp";
 import gameCardAsset from "../assets/paris-game-card.jpeg";
 import headerAsset from "../assets/paris-haywhy-header.jpeg";
-import activeWeaponAsset from "../assets/codm-active-weapon.jpg";
-import mythicDropAsset from "../assets/codm-mythic-drop.jpg";
+import leaderboardAsset from "../assets/codm-leaderboard.jpg";
+import hurricaneLoadoutAsset from "../assets/codm-hurricane-loadout.jpg";
 
 export const assets = {
   lifestyle: lifestyleAsset,
@@ -49,16 +49,16 @@ export const tiktok = {
 
 export const weapons = [
   {
-    name: "ACTIVE MYTHIC RIFLE",
-    detail: "CURRENTLY EQUIPPED // COD:M",
-    image: activeWeaponAsset,
-    alt: "Paris Haywhy holding the active mythic rifle in Call of Duty Mobile",
+    name: "WEAPON MASTER RANK 66",
+    detail: "LEADERBOARD // TOP 100 // 8196",
+    image: leaderboardAsset,
+    alt: "Paris Haywhy ranked 66 on the Call of Duty Mobile Weapon Master leaderboard",
   },
   {
-    name: "CHAOS & ORDER",
-    detail: "MYTHIC DROP REDUX // FEATURED",
-    image: mythicDropAsset,
-    alt: "Chaos and Order Mythic Drop Redux shown in Paris Haywhy's Call of Duty Mobile screen",
+    name: "FSS HURRICANE SHADOW SKYLINE",
+    detail: "MYTHIC LEVEL 3 // LOADOUT",
+    image: hurricaneLoadoutAsset,
+    alt: "Haywhy_Fc FSS Hurricane Shadow Skyline mythic loadout in Call of Duty Mobile",
   },
 ];
 
